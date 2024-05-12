@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Cafe {
+  id: String!
+  name: String!
+  location: String!
+}
+
+type Beverage {
+  id: String!
+  name: String!
+  price: Int!
+}
+
+type Query {
+  cafes: [Cafe]
+  beverages: [Beverage]
+}
